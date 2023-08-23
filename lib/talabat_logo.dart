@@ -29,7 +29,7 @@ class LogoPage extends StatelessWidget{
             totalRepeatCount: 1,
             onFinished: ()async{
         await Future.delayed(Duration(milliseconds:500 ));
-        Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) =>SignUp_page()));
+        Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) =>ss()));
             },
     ),
       ),
